@@ -1,21 +1,39 @@
-# Titanic EDA Project
+# EDA and Visualization of Titanic Dataset
 
-This project explores the Titanic dataset to analyze the survival of passengers. The analysis involves data cleaning, feature engineering, and visualizations to understand the patterns and insights.
+## Project Overview
 
-## Task Outline
-- **Data Cleaning**: Handle missing values, drop irrelevant features, and convert categorical variables.
-- **Feature Engineering**: Apply feature scaling, handle outliers, and label encoding.
-- **Exploratory Data Analysis**: 
-  - Visualize survival counts using a bar chart.
-  - Explore age distribution with a histogram.
-  - Understand correlations with a heatmap.
-
-## Insights
-- **Survival Count**: The majority of passengers did not survive, but a significant proportion did.
-- **Age Distribution**: Most passengers were in their 20s and 30s.
-- **Correlation**: Fare is positively correlated with survival, while lower-class passengers had lower survival chances.
+This project involves performing Exploratory Data Analysis (EDA) and creating visualizations for the Titanic dataset. The goal is to uncover insights regarding passenger survival, demographics, and other key variables.
 
 ## Files
-- `titanic_eda.ipynb`: Jupyter Notebook containing the analysis and visualizations.
-- `titanic_cleaned.csv`: Cleaned dataset after preprocessing.
+- `Task_1 Eda & visulization.ipynb`: Jupyter Notebook containing the EDA steps and visualizations.
+- `titanic_cleaned.csv`: Cleaned dataset used for analysis.
+
+## Steps Taken:
+### 1. Data Cleaning:
+- Missing values were handled by filling with medians and modes.
+- Irrelevant features were dropped.
+- Categorical features were encoded numerically.
+
+### 2. Visualizations:
+- **Bar Chart**: Visualized survival counts of passengers.
+- **Histogram**: Displayed the age distribution of passengers.
+- **Correlation Heatmap**: Identified relationships between numerical variables.
+
+## Insights
+- Most passengers were young adults, with fewer children and older adults.
+- A higher fare was associated with a higher survival rate.
+- Females had a better survival rate than males.
+
+## Visuals
+![Survival Bar Chart](path_to_your_image)
+![Age Distribution](path_to_your_image)
+![Correlation Heatmap](path_to_your_image)
+
+## How to Run:
+1. Clone the repository.
+2. Install the required libraries: `pandas`, `numpy`, `seaborn`, `matplotlib`.
+3. Run the notebook `Task_1 Eda & visulization.ipynb`.
+
+## Conclusion
+This project demonstrates the power of data visualization and analysis in understanding passenger survival in the Titanic disaster. The notebook contains all steps, from data cleaning to visualization.
 
